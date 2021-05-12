@@ -8,9 +8,8 @@
 li,
 a,
 button {
-  font-family: 'KoPub Batang', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font-family: 'JejuMyeongjo';
+  font-size: 1.25rem;
   color: #434343;
   text-decoration: none;
 }
@@ -19,5 +18,30 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4% 5%;
+  height: 12%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a:hover {
+  color: black;
+}
+
+button {
+  background-color: rgb(66, 66, 66);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
 }

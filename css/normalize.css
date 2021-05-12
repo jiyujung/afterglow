@@ -8,6 +8,26 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+@font-face {
+  font-family: 'KoPubBatangB';
+  src: url(../font/KoPubBatang-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'KoPubBatangM';
+  src: url(../font/KoPubBatang-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'KoPubBatangL';
+  src: url(../font/KoPubBatang-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'JejuMyeongjo';
+  src: url(../font/JejuMyeongjo.ttf) format('truetype');
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
