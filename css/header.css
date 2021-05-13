@@ -5,6 +5,10 @@
   background-color: #f8f8f3;
 }
 
+body {
+  overflow: scroll;
+}
+
 li,
 a,
 button {
@@ -18,7 +22,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 12%;
+  height: 130px;
+  padding: 20px 92px;
+  border-style: solid;
+  border-width: 0px 0px 1px;
+  border-color: #434343;
+  min-width: 1900px;
 }
 
 .logo {
@@ -31,11 +40,20 @@ header {
 
 .nav_links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 70px;
 }
 
 .nav_links li a:hover {
   color: black;
+}
+
+.cta_area {
+  list-style: none;
+}
+
+.cta_area li {
+  display: inline-block;
+  padding: 0px 40px 0px 0px;
 }
 
 button {
