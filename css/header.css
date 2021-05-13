@@ -23,7 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 130px;
-  padding: 20px 92px;
+  padding: 20px 82px;
   border-style: solid;
   border-width: 0px 0px 1px;
   border-color: #434343;
@@ -53,7 +53,7 @@ header {
 
 .cta_area li {
   display: inline-block;
-  padding: 0px 40px 0px 0px;
+  padding: 0px 0px 0px 40px;
 }
 
 button {
