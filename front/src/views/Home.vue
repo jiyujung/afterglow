@@ -1,16 +1,12 @@
 <template>
   <div class="home">
-    <button @click="foo">submit</button>
+    <form action="/users" method="POST">
+      <input type="text" name="id">
+      <input type="text" name="password">
+      <input type="submit">
+    </form>
   </div>
 </template>
 
 <script>
-
-export default {
-  methods: {
-    foo(){
-      this.$http.get('/users')
-    }
-  },
-}
 </script>

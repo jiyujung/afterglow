@@ -38,4 +38,19 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+const mongoose = require('mongoose');
+mongoose.connect(
+  'mongodb+srv://user:mirim@afterglowdb.qcjcx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+  { useNewUrlParser: true, useUnifiedTopology: true },
+  function(err) {
+    if(err){
+      console.error('mongodb connection error!', err);
+    }
+    console.log('mongodb connected!');
+  }
+);
+
+var userControll = require('./routes/users.js');
+app.use('/users', userControll);
+
 module.exports = app;
