@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #f8f8f3;
 }
 
 body {
@@ -28,6 +27,7 @@ header {
   border-width: 0px 0px 1px;
   border-color: #434343;
   min-width: 1900px;
+  z-index: 1;
 }
 
 .logo {
