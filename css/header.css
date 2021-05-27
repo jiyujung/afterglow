@@ -28,6 +28,7 @@ header {
   border-color: #434343;
   min-width: 1900px;
   z-index: 1;
+  background-color: #f8f8f3;
 }
 
 .logo {
