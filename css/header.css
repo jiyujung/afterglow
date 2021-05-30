@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-body {
-  overflow: scroll;
-}
-
 li,
 a,
 button {
@@ -24,10 +20,11 @@ header {
   height: 130px;
   padding: 20px 82px;
   border-style: solid;
-  border-width: 0px 0px 1px;
+  border-width: 0.5px 1px 1px;
   border-color: #434343;
-  min-width: 1900px;
+  max-width: 1920px;
   z-index: 1;
+  background-color: #f8f8f3;
 }
 
 .logo {
@@ -40,7 +37,7 @@ header {
 
 .nav_links li {
   display: inline-block;
-  padding: 0px 70px;
+  padding-left: 140px;
 }
 
 .nav_links li a:hover {
