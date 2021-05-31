@@ -1,22 +1,20 @@
 body {
   width: 1920px;
   height: 1080px;
-  overflow: hidden;
 }
 
 video {
   object-fit: cover;
+  z-index: 10;
   width: 1920px;
-  height: 920px;
+  height: 758px;
 }
 
 section:before {
   content: '';
   position: absolute;
-  top: 0px;
-  left: 0;
   width: 1920px;
-  height: 100%;
+  height: 758px;
   background: linear-gradient(to right, #316115, #b4e698, #f19cb3, #b1143f);
   opacity: 100%;
   mix-blend-mode: screen;
@@ -32,4 +30,9 @@ section:before {
 
 header {
   border-style: none !important;
+  background-color: white;
+}
+
+.btm_container{
+  margin-top: 38px;
 }
