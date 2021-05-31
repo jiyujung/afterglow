@@ -1,0 +1,240 @@
+body {
+  width: 1920px;
+  background-color: #f8f8f3;
+}
+
+section {
+  display: flex;
+  flex-flow: row;
+}
+
+h1 {
+  font-family: 'KoPubBatangM';
+  font-size: 24px;
+  font-weight: normal;
+  color: #434343;
+  line-height: 37px;
+}
+
+h2 {
+  font-family: 'KoPubBatangM';
+  font-size: 20px;
+  font-weight: normal;
+  color: #434343;
+  line-height: 31px;
+  margin-bottom: 24px;
+}
+
+input[type='text'] {
+  height: 32px;
+  width: 200px;
+  background-color: #f8f8f3;
+  line-height: normal;
+  font-family: 'JejuMyeongjo';
+  font-size: 16px;
+  border-style: none;
+  outline-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  opacity: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #434343;
+  outline-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type='checkbox']:checked {
+  border-style: none;
+  background-image: url('../img/checkbox_checked.svg');
+  opacity: 100%;
+}
+
+.left_container {
+  display: fixed;
+  flex-direction: column;
+  width: 348px;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  border-color: #434343;
+}
+
+.search_area {
+  display: flex;
+  flex-direction: row;
+  width: 228px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #434343;
+}
+
+.all_search_area {
+  display: flex;
+  flex-direction: column;
+  height: 166.5px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #434343;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.dilution_area {
+  display: flex;
+  flex-direction: column;
+  height: 351px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #434343;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.dilution_check_area {
+  display: flex;
+  margin-top: 16px;
+  flex-direction: column;
+}
+
+.check_area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.check_text {
+  font-family: 'JejuMyeongjo';
+  font-size: 18px;
+  font-weight: normal;
+  color: #434343;
+  margin-left: 8px;
+  line-height: 28px;
+}
+
+.brand_area {
+  display: flex;
+  flex-direction: column;
+  height: 452px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #434343;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.scroll_check_area {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 228px;
+  height: 250px;
+}
+
+.scroll_check_area::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll_check_area::-webkit-scrollbar-thumb {
+  background-color: #434343;
+}
+
+.scroll_check_area::-webkit-scrollbar-track {
+  background-color: rgba(67, 67, 67, 0.2);
+}
+.note_area {
+  display: flex;
+  flex-direction: column;
+  height: 452px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #434343;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.right_container {
+  display: flex;
+  flex-direction: column;
+  width: 1572px;
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  border-color: #434343;
+}
+
+.right_nav_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1572px;
+  height: 80.5px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #434343;
+  padding-left: 40px;
+}
+
+.align_menu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 773px;
+}
+
+.align_btn {
+  font-family: 'JejuMyeongjo';
+  font-size: 20px;
+  font-weight: normal;
+  color: #434343;
+  margin-right: 30px;
+  opacity: 40%;
+}
+
+.align_btn:hover {
+  opacity: 100%;
+}
+
+.category_text {
+  font-family: 'JejuMyeongjo';
+  font-size: 24px;
+  font-weight: normal;
+  color: #434343;
+}
+
+.right_content_container {
+  display: flex;
+  flex-direction: row;
+  width: 1572px;
+}
+
+.list_container {
+  display: flex;
+  width: 1372px;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  border-color: #434343;
+}
+
+.recently_viewed_container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding-top: 26px;
+  padding-left: 30px;
+}
+
+.product {
+  width: 140px;
+  height: 140px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #434343;
+  margin-bottom: 20px;
+}
