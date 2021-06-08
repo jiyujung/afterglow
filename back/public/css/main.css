@@ -1,0 +1,38 @@
+body {
+  width: 1920px;
+  height: 1080px;
+}
+
+video {
+  object-fit: cover;
+  z-index: 10;
+  width: 1920px;
+  height: 758px;
+}
+
+section:before {
+  content: '';
+  position: absolute;
+  width: 1920px;
+  height: 758px;
+  background: linear-gradient(to right, #316115, #b4e698, #f19cb3, #b1143f);
+  opacity: 100%;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.sample_1 {
+  position: absolute;
+  z-index: 100;
+  top: 160px;
+  left: 834px;
+}
+
+header {
+  border-style: none !important;
+  background-color: white;
+}
+
+.btm_container{
+  margin-top: 38px;
+}

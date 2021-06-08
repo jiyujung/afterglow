@@ -1,0 +1,187 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: #f8f8f3;
+  }
+  
+  section {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  h1 {
+    font-family: 'KoPubBatangB';
+    font-size: 26px;
+    font-weight: normal;
+    color: #434343;
+    margin-left: 20px;
+    line-height: normal;
+  }
+  
+  h2 {
+    font-family: 'JejuMyeongjo';
+    font-size: 15px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 18px;
+    margin-bottom: 7px;
+  }
+  
+  h3 {
+    font-family: 'JejuMyeongjo';
+    font-size: 18px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 28px;
+    margin-top: 35px;
+  }
+  
+  h4 {
+    font-family: 'JejuMyeongjo';
+    font-size: 18px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 28px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+  
+  .top_container {
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+    height: 770px;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: #434343;
+  }
+  
+  .title_area {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #434343;
+  }
+  
+  .todays_frag_container {
+    display: flex;
+    flex-direction: column;
+    width: 790px;
+    height: 770px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #434343;
+  }
+  
+  .todays_frag {
+    display: flex;
+    flex-direction: row;
+    height: 650px;
+    width: 790px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todays_frag_img {
+    max-height: 500px;
+    max-width: 200px;
+  }
+  
+  .todays_frag_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 72px;
+  }
+  
+  .brand {
+    font-family: 'KoPubBatangM';
+    font-size: 20px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 31px;
+    margin-bottom: 17px;
+  }
+  
+  .name {
+    font-family: 'KoPubBatangB';
+    font-size: 27px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 45px;
+    margin-bottom: 45px;
+  }
+  
+  .weather {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .temp_container {
+    margin-right: 58px;
+  }
+  
+  .temp {
+    font-family: 'KoPubBatangB';
+    font-size: 33px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 44px;
+  }
+  
+  .preci {
+    font-family: 'KoPubBatangB';
+    font-size: 33px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 44px;
+  }
+  
+  .view_more {
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+  }
+  
+  .magazine_container {
+    display: flex;
+    flex-direction: column;
+    width: 782px;
+    height: 770px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #434343;
+  }
+  
+  .right_container {
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 770px;
+  }
+  
+  .keyword_container {
+    display: flex;
+    flex-direction: column;
+    height: 295px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #434343;
+  }
+  
+  .ads_container {
+    display: flex;
+    flex-direction: column;
+    height: 405px;
+  }
+  
+  .btm_container {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 682px;
+    border-style: solid;
+    border-width: 0px 1px 1px 0px;
+    border-color: #434343;
+  }
