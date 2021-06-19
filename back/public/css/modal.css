@@ -1,0 +1,89 @@
+#modal.modal_overlay {
+    width: 1920px;
+    height: 1583px;
+    position: absolute;
+    left: 0;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(67, 67, 67, 0.5);
+}
+
+#modal .modal_window {
+    background: #F8F8F3;
+    border: 1px solid #434343;
+    width: 1110px;
+    height: 700px;
+    position: relative;
+    top: 0px;
+    padding: 0px;
+}
+
+#modal .close_area {
+    cursor: pointer;
+    margin-left: 143px;
+}
+
+.modal_upper {
+    display: flex;
+    flex-direction: row;
+}
+
+.modal_left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.modal_right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 416px;
+    margin-top: 40px;
+}
+
+.modal_title {
+    font-family: 'KoPubBatangB';
+    font-size: 30px;
+    font-weight: normal;
+    color: #434343;
+    margin-top: 40px;
+}
+
+.modal_explain {
+    font-family: 'KoPubBatangM';
+    font-size: 18px;
+    font-weight: normal;
+    color: #434343;
+    line-height: 34px;
+    margin-top: 28px;
+}
+
+.modal_recommend_btn_area{
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.modal_recommend_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 40px;
+  background-color: #434343;
+  color: #f8f8f3;
+  font-family: 'KoPubBatangM';
+  font-size: 17px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.modal_line{
+    background-color: #434343;
+    height: 1px;
+    opacity: 100%;
+    margin-top: 35px;
+}
