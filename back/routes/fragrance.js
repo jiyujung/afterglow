@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
 router.get('/list/:page', function(req, res, next) {
   var page = req.params.page;
     pool.getConnection(function(err, connection) {
-        var sqlForSelectList = "SELECT p_name, p_price, p_brand, p_img FROM product WHERE p_category=1";
+        var sqlForSelectList = "SELECT p_id, p_name, p_price, p_brand, p_img FROM product WHERE p_category=1";
         connection.query(sqlForSelectList, function(err, rows) {
             if(err) console.error("err: " + err);
             console.log("rows:" + JSON.stringify(rows));
@@ -31,5 +31,17 @@ router.get('/list/:page', function(req, res, next) {
         })
     })
 })
+
+router.get('/list/product/:p_id',function(req,res,next) {
+  var p_id = req.params.p_id;
+  pool.getConnection(function(err, connection) {
+    var sql = "SELECT * FROM product WHERE p_id=?";
+    connection.query(sql, [p_id], function(err,row) {
+      if(err) console.error(err);
+      res.render('product', {row:row[0]});
+      connection.release;
+    });
+  })
+});
 
 module.exports = router;
