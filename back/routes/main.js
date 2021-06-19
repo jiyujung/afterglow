@@ -13,10 +13,6 @@ router.get('/bathandbody', function(req,res){
   res.render('bathandbody.ejs', {user: req.user});
 });
 
-router.get('/fragrance', function(req,res){
-  res.render('fragrance.ejs', {user: req.user});
-});
-
 router.get('/mypage', function(req,res){
   res.render('mypage.ejs', {user: req.user});
 });
