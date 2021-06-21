@@ -52,13 +52,16 @@
           <h2><%= row.p_brand %></h2>
           <h1><%= row.p_name %></h1>
           <div class="dilution_container">
-            <h3>부향률</h3>
-            <img class="question_mark" src="/img/question_mark.svg">
-            <% for(var i=0; i < 3; i++){ %>
-            <img class="dilution" src="/img/dilution_fill.svg">
+            <% if(row.p_abrate <= 5) { %>
+              <h3>부향률</h3>
+              <img class="question_mark" src="/img/question_mark.svg">
+              <% for(var i=0; i < row.p_abrate; i++){ %>
+                <img class="dilution" src="/img/dilution_fill.svg">
+              <% } %>
+              <% for(var i=0; i < 5-row.p_abrate; i++){ %>
+                <img class="dilution" src="/img/dilution_blank.svg">
+              <% } %>
             <% } %>
-            <img class="dilution" src="/img/dilution_blank.svg">
-            <img class="dilution" src="/img/dilution_blank.svg">
           </div>
           <div class="explain">
             <%= row.p_detail %>
@@ -66,7 +69,6 @@
           <div class="vp_container">
             <div class="volume">
               <div class="volume_selected"><%= row.p_capacity %>ml</div>
-              <div class="volume_unselected">320ml</div>
             </div>
             <div class="price_container">
               <div class="price"><%= row.p_price %></div>
