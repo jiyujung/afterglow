@@ -17,10 +17,6 @@ router.get('/list', function(req,res){
   res.render('list.ejs', {user: req.user});
 });
 
-router.get('/homefragrance', function(req,res){
-  res.render('homefragrance.ejs', {user: req.user});
-});
-
 router.get('/search', function(req,res){
   res.render('search.ejs', {user: req.user});
 });
