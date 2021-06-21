@@ -1,7 +1,9 @@
 const body = document.querySelector('body');
 let scrollPosition = 0;
-const modal = document.getElementById("modal")
+const modal = document.getElementById("modal");
 modal.style.display = "none"
+const modal2 = document.getElementById("modal2");
+modal2.style.display = "none";
 
 function modalOn() {
     modal.style.display = "flex"
@@ -41,4 +43,24 @@ window.addEventListener("keyup", e => {
     if (isModalOn() && e.key === "Escape") {
         modalOff()
     }
+})
+
+function modal2On() {
+    modal2.style.display = "block"
+}
+
+function isModal2On() {
+    return modal2.style.display === "block"
+}
+
+function modal2Off() {
+    modal2.style.display = "none"
+}
+const btnModal2 = document.getElementById("btn_modal2")
+btnModal2.addEventListener("click", e => {
+    modal2On()
+})
+const closeBtn2 = modal.querySelector(".close_area2")
+closeBtn2.addEventListener("click", e => {
+    modal2Off()
 })

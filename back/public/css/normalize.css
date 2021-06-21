@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-@font-face {
+ @font-face {
   font-family: 'KoPubBatangB';
   src: url(../font/KoPubBatang-Bold.ttf) format('truetype');
 }
@@ -42,6 +42,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x:hidden;
 }
 
 /**
