@@ -16,6 +16,7 @@ app.use(passport.session());
 app.use('/', require('./routes/main'));
 app.use('/auth', require('./routes/auth'));
 app.use('/fragrance', require('./routes/fragrance'));
+app.use('/bathandbody', require('./routes/bathandbody'));
 
 // Port setting
 var port = 3000;
