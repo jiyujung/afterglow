@@ -1,17 +1,6 @@
 var express = require('express');
 var router = express.Router();
-
-// MySQl 로드
-var mysql = require('mysql');
-const { connect } = require('./main');
-var pool = mysql.createPool(
-  {
-    connectionLimit:3,
-    host: process.env.HOST,
-    user: process.env.USER,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE
-  });
+var pool = require('./db.js');
 
 router.get('/', function(req, res, next) {
     res.redirect('/homefragrance/list/1');
