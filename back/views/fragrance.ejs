@@ -36,13 +36,15 @@
   </header>
   <section>
     <article class="left_container">
+      <form action="/fragrance/list/search/1" method="get">
       <div class="all_search_area">
         <h1>통합검색</h1>
         <div class="search_area">
-          <input type="text" placeholder="키워드를 입력하세요">
-          <img class="search_icon" src="/img/search_small.svg">
+          <input type="text" placeholder="키워드를 입력하세요"  name = "fragrance">
+          <a href="/fragrance/list/search/1/"><img class="search_icon" src="/img/search_small.svg"></a>
         </div>
       </div>
+      </form>
       <div class="dilution_area">
         <h1>부향률</h1>
         <div class="dilution_check_area">
@@ -152,7 +154,7 @@
             <% for(var i=(page * page_num) - page_num; i<(page * page_num); i++){ if(i> length){
               i++;
               }else{
-              var oneItem = rows[i]
+              var oneItem = rows[i];
               %>
               <a href="product/<%=oneItem.p_id%>" class="product_container">
                 <img class="product_img" src="/product/<%=oneItem.p_img%>">
