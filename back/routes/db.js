@@ -4,10 +4,10 @@ const { connect } = require('./main');
 var pool = mysql.createPool(
   {
     connectionLimit:3,
-    host: process.env.HOST,
-    user: process.env.USER,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE
+    host: "localhost",
+    user: "afterglow",
+    password: "AOVImSs9WIoCF4yL",
+    database: "afterglow"
   });
 
 module.exports=pool;
