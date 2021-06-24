@@ -5,10 +5,10 @@ require('dotenv').config();
 var mysql = require('mysql');
 var mysqlconnection = mysql.createConnection(
   {
-    host: process.env.HOST,
-    user: process.env.USER,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE
+    host: "localhost",
+    user: "afterglow",
+    password: "AOVImSs9WIoCF4yL",
+    database: "afterglow"
   });
 mysqlconnection.connect(function (err) {
   if (err) {
@@ -25,8 +25,8 @@ passport.deserializeUser(function (user, done) {
 
 passport.use(new GoogleStrategy(
   {
-    clientID: process.env.GOOGLE_CLIENT_ID,
-    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    clientID: "683854711500-pd4725f8q4rtnum1qfff7hmod2dhia80.apps.googleusercontent.com",
+    clientSecret: "CTjCaBmhJZQylf30fXLsGKbB",
     callbackURL: '/auth/google/callback',
     passReqToCallback: true
   }, function (request, accessToken, refreshToken, profile, done) {
@@ -47,8 +47,8 @@ passport.use(new GoogleStrategy(
 
 passport.use(new FacebookStrategy(
   {
-    clientID: process.env.FACEBOOK_CLIENT_ID,
-    clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
+    clientID: "211100520685336",
+    clientSecret: "abb849349995ca0ee83655c2c4383a67",
     callbackURL: '/auth/facebook/callback',
     passReqToCallback: true
   }, function (request, accessToken, refreshToken, profile, done) {
