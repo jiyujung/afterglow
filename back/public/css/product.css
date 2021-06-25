@@ -271,3 +271,9 @@ h5 {
   align-items: center;
   justify-content: center;
 }
+
+.rv_image {
+  max-width: 139px;
+  max-height: 139px;
+  margin: 0 auto;
+}
