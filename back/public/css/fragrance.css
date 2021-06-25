@@ -337,3 +337,9 @@ input[type='checkbox']:checked {
   border-color: #434343;
   margin-bottom: 20px;
 }
+
+.rv_image {
+  max-width: 139px;
+  min-width: 139px;
+  margin: 0 auto;
+}
