@@ -5,7 +5,6 @@ body {
   }
 
 h1{
-    font-family: 'KoPubBatangB';
     font-size: 50px;
     font-weight: normal;
     color: #434343;
@@ -13,7 +12,6 @@ h1{
 }
 
 h2{
-    font-family: 'KoPubBatangM';
     font-size: 18px;
     font-weight: normal;
     color: #434343;
@@ -23,7 +21,6 @@ h2{
 }
 
 h3{
-    font-family: 'KoPubBatangM';
     font-size: 18px;
     font-weight: normal;
     color: #434343;
@@ -32,7 +29,6 @@ h3{
 }
 
 h4{
-    font-family: 'KoPubBatangB';
     font-size: 20px;
     font-weight: normal;
     color: #434343;

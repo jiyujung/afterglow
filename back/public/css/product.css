@@ -10,7 +10,6 @@ section {
 }
 
 h1 {
-  font-family: 'KoPubBatangB';
   font-size: 40px;
   font-weight: normal;
   color: #434343;
@@ -18,21 +17,18 @@ h1 {
 }
 
 h2 {
-  font-family: 'KoPubBatangM';
   font-size: 24px;
   font-weight: normal;
   color: #434343;
 }
 
 h3 {
-  font-family: 'KoPubBatangM';
   font-size: 20px;
   font-weight: normal;
   color: #434343;
 }
 
 h4 {
-  font-family: 'KoPubBatangM';
   font-size: 14px;
   font-weight: normal;
   color: #434343;
@@ -40,14 +36,12 @@ h4 {
 }
 
 h5 {
-  font-family: 'KoPubBatangM';
   font-size: 24px;
   font-weight: normal;
   color: #f8f8f3;
 }
 
 .similar_label {
-  font-family: 'KoPubBatangM';
   font-size: 20px;
   font-weight: normal;
   color: #434343;
@@ -142,7 +136,6 @@ h5 {
 .explain {
   width: 552px;
   margin-top: 60px;
-  font-family: 'KoPubBatangM';
   font-size: 14px;
   font-weight: normal;
   color: #434343;
@@ -165,7 +158,6 @@ h5 {
 }
 
 .volume_selected {
-  font-family: 'KoPubBatangB';
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -174,7 +166,6 @@ h5 {
 }
 
 .volume_unselected {
-  font-family: 'KoPubBatangB';
   font-size: 18px;
   font-weight: normal;
   opacity: 20%;
@@ -190,13 +181,11 @@ h5 {
 }
 
 .price {
-  font-family: 'KoPubBatangM';
   font-size: 40px;
   font-weight: normal;
 }
 
 .won {
-  font-family: 'KoPubBatangM';
   font-size: 20px;
   font-weight: normal;
   margin-left: 3px;
@@ -241,7 +230,6 @@ h5 {
 }
 
 .review_first {
-  font-family: 'KoPubBatangL';
   font-size: 18px;
   font-weight: normal;
   margin-left: 30px;
@@ -259,7 +247,6 @@ h5 {
 }
 
 .viewmore_btn {
-  font-family: 'KoPubBatangM';
   font-size: 14px;
   margin-left: 40px;
 }

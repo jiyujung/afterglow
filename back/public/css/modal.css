@@ -21,6 +21,16 @@
     background: #F8F8F3;
 }
 
+#modal_mag_1 .modal_window_2 {
+    position: fixed;
+    top: 245px;
+    width: 1110px;
+    height: 700px;
+    padding: 0px;
+    border: 1px solid #434343;
+    background: #F8F8F3;
+}
+
 #modal .close_area {
     cursor: pointer;
     margin-left: 143px;
@@ -48,7 +58,6 @@
     color: #434343;
     font-weight: normal;
     font-size: 30px;
-    font-family: 'KoPubBatangB';
     margin-top: 40px;
 }
 
@@ -57,7 +66,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 34px;
-    font-family: 'KoPubBatangM';
     margin-top: 28px;
 }
 
@@ -74,7 +82,6 @@
     color: #f8f8f3;
     font-weight: normal;
     font-size: 17px;
-    font-family: 'KoPubBatangM';
     align-items: center;
     justify-content: center;
     background-color: #434343;
@@ -101,7 +108,6 @@
     color: #434343;
     font-weight: normal;
     font-size: 16px;
-    font-family: 'KoPubBatangM';
     flex-direction: row;
     margin-top: 30px;
     margin-bottom: 12px;
@@ -147,20 +153,17 @@
 .modal_profile_nickname {
     color: #434343;
     font-size: 14px;
-    font-family: 'KoPubBatangM';
     margin-bottom: 2px;
 }
 
 .modal_profile_date {
     color: #434343;
     font-size: 8px;
-    font-family: 'KoPubBatangM';
 }
 
 .modal_recommend_title {
     color: #434343;
     font-size: 20px;
-    font-family: 'KoPubBatangM';
     margin-left: 60px;
     margin-bottom: 8px;
 }
@@ -168,7 +171,6 @@
 .modal_recommend_explain {
     color: #434343;
     font-size: 14px;
-    font-family: 'KoPubBatangM';
     margin-left: 60px;
     margin-bottom: 20px;
 }
@@ -215,7 +217,6 @@
     height: 32px;
     color: #f8f8f3;
     font-size: 14px;
-    font-family: 'KoPubBatangM';
     align-items: center;
     justify-content: center;
     background-color: #434343;
@@ -242,14 +243,12 @@
     color: #434343;
     font-weight: normal;
     font-size: 30px;
-    font-family: 'KoPubBatangB';
     margin-top: 20px;
 }
 
 input::placeholder {
     color: #434343;
     font-size: 20px;
-    font-family: 'KoPubBatangM';
     opacity: 50%;
 }
 
@@ -263,7 +262,6 @@ input[type=text] {
     border: solid 1px #434343;
     color: #434343;
     font-size: 20px;
-    font-family: 'KoPubBatangM';
     margin-top: 30px;
     background-color: #F8F8F3;
     padding-left: 20px;
@@ -276,7 +274,6 @@ input[type=text] {
     border: solid 1px #434343;
     color: #434343;
     font-size: 20px;
-    font-family: 'KoPubBatangM';
     background-color: #F8F8F3;
     margin-top: 20px;
     padding-left: 20px;
@@ -287,7 +284,6 @@ input[type=text] {
 textarea::placeholder {
     color: #434343;
     font-size: 20px;
-    font-family: 'KoPubBatangM';
     opacity: 50%;
 }
 
@@ -308,9 +304,80 @@ textarea:focus {
     color: #f8f8f3;
     font-weight: normal;
     font-size: 17px;
-    font-family: 'KoPubBatangM';
     align-items: center;
     justify-content: center;
     background-color: #434343;
     cursor: pointer;
+}
+
+.modal_window_mag {
+    position: fixed;
+    top: 245px;
+    left: 405px;
+    width: 1110px;
+    height: 700px;
+    padding: 0px;
+    border: 1px solid #434343;
+    background: #F8F8F3;
+}
+
+.close_area3 {
+    margin-left: 1023px;
+    margin-top: 40px;
+}
+
+.close_area4 {
+    margin-left: 1023px;
+    margin-top: 40px;
+}
+
+.close_area5 {
+    margin-left: 1023px;
+    margin-top: 40px;
+}
+
+.close_area6 {
+    margin-left: 1023px;
+    margin-top: 40px;
+}
+
+.mag_title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.mag_explain {
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.mag_date {
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 974px;
+}
+
+.mag_line {
+    line-height: 1px;
+    background-color: #434343;
+    opacity: 100%;
+    margin-top: 7px;
+}
+
+.mag_content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.mag {
+    width: 475px;
+    height: 441px;
+    font-size: 18px;
+    line-height: 34px;
+    margin-left: 20px;
 }
