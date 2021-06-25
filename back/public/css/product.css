@@ -101,8 +101,8 @@ h5 {
 }
 
 .product_img {
-  width: 256px;
-  height: 650px;
+  max-width: 616px;
+  max-height: 650px;
 }
 
 .info_container {
