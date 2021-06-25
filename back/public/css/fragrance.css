@@ -336,6 +336,7 @@ input[type='checkbox']:checked {
   border-width: 1px;
   border-color: #434343;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .rv_image {
