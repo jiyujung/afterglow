@@ -22,6 +22,7 @@ app.use(bodyParser.urlencoded({
 app.use('/', require('./routes/main'));
 app.use('/auth', require('./routes/auth'));
 app.use('/fragrance', require('./routes/fragrance'));
+app.use('/bathandbody', require('./routes/bathandbody'));
 app.use('/homefragrance', require('./routes/homefragrance'));
 
 // Port setting
