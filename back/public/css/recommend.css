@@ -10,7 +10,6 @@ section {
 }
 
 h1 {
-  font-family: 'KoPubBatangB';
   font-size: 26px;
   font-weight: normal;
   color: #434343;
@@ -19,7 +18,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'JejuMyeongjo';
   font-size: 15px;
   font-weight: normal;
   color: #434343;
@@ -28,7 +26,6 @@ h2 {
 }
 
 h3 {
-  font-family: 'JejuMyeongjo';
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -37,7 +34,6 @@ h3 {
 }
 
 h4 {
-  font-family: 'JejuMyeongjo';
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -46,8 +42,7 @@ h4 {
   margin-right: 30px;
 }
 
-h5{
-  font-family: 'JejuMyeongjo';
+h5 {
   font-size: 18px;
   font-weight: normal;
   color: #434343;
@@ -55,16 +50,8 @@ h5{
   cursor: pointer;
 }
 
-h6{
-  font-family: 'KoPubBatangM';
+h6 {
   font-size: 20px;
-  font-weight: normal;
-  color: #434343;
-}
-
-h7{
-  font-family: 'KoPubBatangM';
-  font-size: 18px;
   font-weight: normal;
   color: #434343;
 }
@@ -119,7 +106,6 @@ h7{
 }
 
 .brand {
-  font-family: 'KoPubBatangM';
   font-size: 20px;
   font-weight: normal;
   color: #434343;
@@ -128,7 +114,6 @@ h7{
 }
 
 .name {
-  font-family: 'KoPubBatangB';
   font-size: 27px;
   font-weight: normal;
   color: #434343;
@@ -146,7 +131,6 @@ h7{
 }
 
 .temp {
-  font-family: 'KoPubBatangB';
   font-size: 33px;
   font-weight: normal;
   color: #434343;
@@ -154,7 +138,6 @@ h7{
 }
 
 .preci {
-  font-family: 'KoPubBatangB';
   font-size: 33px;
   font-weight: normal;
   color: #434343;
@@ -174,7 +157,7 @@ h7{
   height: 770px;
 }
 
-.magazine_content_container{
+.magazine_content_container {
   display: flex;
   flex-flow: row wrap;
   width: 780px;
@@ -185,7 +168,7 @@ h7{
   border-color: #434343;
 }
 
-.magazine_content{
+.magazine_content {
   display: flex;
   flex-direction: column;
   width: 390px;
@@ -193,42 +176,47 @@ h7{
   border-style: solid;
   border-width: 1px 0px 0px 1px;
   border-color: #434343;
+  overflow: hidden;
   cursor: pointer;
 }
 
-.magazine_preview{
+.magazine_preview {
   display: flex;
   width: 389px;
   height: 199px;
   border-style: solid;
   border-width: 0px 0px 1px 0px;
   border-color: #434343;
+  margin : 0 auto;
 }
 
-.magazine_textarea{
+.magazine_preview_img {
+  object-fit: cover;
+}
+
+.magazine_textarea {
   display: flex;
   flex-direction: column;
   margin-top: 26px;
 }
 
-.magazine_top_area{
+.magazine_top_area {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.magazine_title{
-  font-family: 'KoPubBatangB';
+.magazine_title {
   font-size: 20px;
   color: #434343;
   line-height: 40px;
   margin-left: 20px;
+  font-weight: 800;
 }
 
-.magazine_date{
+.magazine_date {
   display: flex;
   align-self: flex-end;
-  font-family: 'KoPubBatangM';
   font-size: 16px;
   font-weight: normal;
   color: #434343;
@@ -236,9 +224,8 @@ h7{
   margin-right: 36px;
 }
 
-.magazine_explain{
+.magazine_explain {
   display: flex;
-  font-family: 'KoPubBatangM';
   font-size: 16px;
   font-weight: normal;
   color: #434343;
@@ -263,7 +250,7 @@ h7{
   border-color: #434343;
 }
 
-.keyword_content_container{
+.keyword_content_container {
   display: flex;
   flex-direction: column;
   border-style: solid;
@@ -273,15 +260,14 @@ h7{
   padding-left: 30px;
 }
 
-.keywords{
+.keywords {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
   cursor: pointer;
 }
 
-.keyword{
-  font-family: 'KoPubBatangM';
+.keyword {
   font-size: 20px;
   font-weight: normal;
   color: #434343;
@@ -292,7 +278,8 @@ h7{
 .ads_container {
   display: flex;
   flex-direction: column;
-  height: 405px;
+  height: 400px;
+  background-image: url("../img/banner_mini.png");
 }
 
 .btm_container {
@@ -305,7 +292,7 @@ h7{
   border-color: #434343;
 }
 
-.recommend_container{
+.recommend_container {
   display: flex;
   flex-direction: column;
   border-style: solid;
@@ -313,13 +300,13 @@ h7{
   border-color: #434343;
 }
 
-.recommend_content_container{
+.recommend_content_container {
   display: flex;
   flex-direction: row;
   height: 488px;
 }
 
-.recommend_left_btn{
+.recommend_left_btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -329,7 +316,7 @@ h7{
   border-color: #434343;
 }
 
-.recommend_right_btn{
+.recommend_right_btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -339,7 +326,7 @@ h7{
   border-color: #434343;
 }
 
-.recommend_content{
+.recommend_content {
   display: flex;
   flex-direction: row;
   width: 1736px;
@@ -349,12 +336,12 @@ h7{
   margin-top: 60px;
 }
 
-.recommend_btn_area{
+.recommend_btn_area {
   display: flex;
   justify-content: center;
 }
 
-.recommend_btn{
+.recommend_btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -362,14 +349,13 @@ h7{
   height: 50px;
   background-color: #434343;
   color: #f8f8f3;
-  font-family: 'KoPubBatangB';
   font-size: 22px;
   font-weight: normal;
   margin-top: 32px;
   cursor: pointer;
 }
 
-.recommend{
+.recommend {
   display: flex;
   flex-direction: column;
   width: 700px;
@@ -380,7 +366,7 @@ h7{
   margin-right: 20px;
 }
 
-.recommend_nickname_area{
+.recommend_nickname_area {
   display: flex;
   flex-direction: row;
   align-self: flex-end;
@@ -388,33 +374,30 @@ h7{
   margin-right: 40px;
 }
 
-.recommend_nickname{
-  font-family: 'KoPubBatangM';
+.recommend_nickname {
   font-size: 18px;
   font-weight: normal;
   color: #434343;
   margin-right: 6px;
 }
 
-.recommend_products_area{
+.recommend_products_area {
   display: flex;
   height: 183px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.recommend_title{
+.recommend_title {
   display: flex;
-  font-family: 'JejuMyeongjo';
   font-size: 20px;
   font-weight: normal;
   color: #434343;
   margin-left: 40px;
 }
 
-.recommend_explain{
+.recommend_explain {
   width: 620px;
-  font-family: 'JejuMyeongjo';
   font-size: 16px;
   font-weight: normal;
   color: #434343;
